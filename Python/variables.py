@@ -63,10 +63,27 @@
 # print(a, d)
 
 
-a = b = c = 20
-c = "THIS"
-print(a + b + c)
+# a = b = c = 20
+# c = "THIS"
+# print(a + b + c)
 
 
 # NEXT TO DISCUSS IS GLOBAL, SCOPE
 
+SETTINGS = "KAKFA"
+
+
+def check_aws():
+    new_settings = 'ELASTICSEARCH'
+    global SETTINGS
+    SETTINGS = "ES"
+    # print(SETTINGS, new_settings)
+    return SETTINGS
+
+
+check = check_aws()
+print(SETTINGS)
+print(check, "THIS")
+
+
+# print(new_settings)
