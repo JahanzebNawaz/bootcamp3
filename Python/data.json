@@ -1,0 +1,17 @@
+{
+    "name": "Jahanzeb",
+    "contact": 12312321,
+    "address": "House 333, Street 222",
+    "active_user": true,
+    "address_2": null,
+    "cars": {
+        "model": [
+            "BMW",
+            "HONDA"
+        ]
+    },
+    "colors": [
+        "RED",
+        "GREEN"
+    ]
+}
